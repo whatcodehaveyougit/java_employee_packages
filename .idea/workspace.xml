@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433baa13-0335-4b82-8efd-249d3b99ae12" name="Default Changelist" comment="" />
+    <list default="true" id="433baa13-0335-4b82-8efd-249d3b99ae12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/management/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XwEgUoNmlwv7hXOkgWsVQs6qmB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,9 +41,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseAdminTest">
+  <component name="RunManager" selected="JUnit.DirectorTest.getDirectorBonus">
     <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_employee_lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -42,11 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.getBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_employee_lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="getBudget" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.getDirectorBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_employee_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="getDirectorBonus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,21 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest.getPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerTest.ensureNegativeRaisesAreBanned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_employee_lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="METHOD_NAME" value="getPayBonus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerTest.returnsPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_employee_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="METHOD_NAME" value="returnsPayBonus" />
+      <option name="METHOD_NAME" value="ensureNegativeRaisesAreBanned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseAdminTest" />
-        <item itemvalue="JUnit.DeveloperTest" />
-        <item itemvalue="JUnit.ManagerTest.getPayBonus" />
-        <item itemvalue="JUnit.ManagerTest.returnsPayBonus" />
+        <item itemvalue="JUnit.DirectorTest.getDirectorBonus" />
         <item itemvalue="JUnit.ManagerTest" />
+        <item itemvalue="JUnit.ManagerTest.ensureNegativeRaisesAreBanned" />
+        <item itemvalue="JUnit.DatabaseAdminTest" />
+        <item itemvalue="JUnit.DirectorTest.getBudget" />
       </list>
     </recent_temporary>
   </component>
@@ -104,25 +117,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1581950037928">
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1581956981586">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1581950037928" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1581952875180">
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1581956981586" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1581957458157">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1581952875180" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1581952875179">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1581957458157" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1581957458156">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1581952875179" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1581952875179">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1581957458156" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1581957458155">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1581952875179" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1581952875180">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1581957458155" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1581957458157">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1581952875180" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1581957458157" />
   </component>
 </project>

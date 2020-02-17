@@ -25,7 +25,7 @@ public class ManagerTest {
 
     @Test
     public void getSalary(){
-        assertEquals(10, manager.getSalary());
+        assertEquals(100, manager.getSalary());
     }
 
     @Test
@@ -43,5 +43,23 @@ public class ManagerTest {
    public void getPayBonus() {
         manager.payBonus(1.01);
         assertEquals(101, manager.getSalary());
+    }
+
+    @Test
+    public void ensureNegativeRaisesAreBanned() {
+        manager.raiseSalary(-10);
+        assertEquals(100, manager.getSalary());
+    }
+
+    @Test
+    public void ensureNameCannotBeNull() {
+        manager.setName("");
+        assertEquals("Jim", manager.getName());
+    }
+
+    @Test
+    public void ensureNameCanBeChanged() {
+        manager.setName("Steve");
+        assertEquals("Steve", manager.getName());
     }
 }
